@@ -1,1 +1,21 @@
 /* code css à faire */
+html:has(.menu:popover-open) {
+  overflow: hidden;
+}
+.burger {
+  cursor: pointer;
+}
+.burger {
+  cursor: pointer;
+}
+
+@starting-style {
+  .menu:popover-open .burger--close {
+    transform: none;
+  }
+}
+
+.menu:popover-open .burger--close {
+  transform: rotate(90deg);
+  transition: 400ms;
+}
